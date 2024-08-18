@@ -14,13 +14,3 @@ dependencies {
     implementation(project(":configuration"))
 
 }
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
-
-tasks.withType<org.springframework.boot.gradle.tasks.bundling.BootJar> {
-    mainClass.set("com.template_clean_architecture.BootApplication.kt")
-}

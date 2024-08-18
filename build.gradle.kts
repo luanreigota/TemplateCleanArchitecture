@@ -67,6 +67,16 @@ subprojects {
         implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
     }
 
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+
+    tasks.withType<org.springframework.boot.gradle.tasks.bundling.BootJar> {
+        mainClass.set("com.template_clean_architecture.BootApplication.kt")
+    }
+
     tasks.withType<Test> {
         useJUnitPlatform()
     }
