@@ -1,0 +1,15 @@
+2025-09-22 22:32:53,551 INFO o.s.b.StartupInfoLogger [main] Starting BootApplicationKt using Java 21.0.4 with PID 37120 (C:\Users\luanr\github\TemplateCleanArchitecture\application\build\classes\kotlin\main started by luanr in C:\Users\luanr\github\TemplateCleanArchitecture\application)
+2025-09-22 22:32:53,554 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-09-22 22:32:55,224 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-09-22 22:32:55,237 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-22 22:32:55,249 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-09-22 22:32:55,251 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-09-22 22:32:55,323 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-09-22 22:32:55,324 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1694 ms
+2025-09-22 22:32:56,147 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoints beneath base path '/actuator'
+2025-09-22 22:32:56,188 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2025-09-22 22:32:56,208 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2025-09-22 22:32:56,223 INFO o.s.b.StartupInfoLogger [main] Started BootApplicationKt in 3.167 seconds (process running for 3.802)
+2025-09-22 22:33:58,277 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-22 22:33:58,279 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-09-22 22:33:58,280 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
